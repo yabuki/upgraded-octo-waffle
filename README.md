@@ -13,3 +13,6 @@ For Japanese
 
 baseed on Linux --- Ubuntu 20.04.
 
+## url
+
+- <https://yabuki.github.io/upgraded-octo-waffle/build/html/index.html>
