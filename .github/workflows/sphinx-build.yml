@@ -24,7 +24,7 @@ jobs:
         sudo apt update
         sudo apt -y upgrade
         apt install python3-sphinx python3-sphinx-rtd-theme python3-sphinxcontrib.plantuml python3-pip
-    - build sphinx document
+    - name: build sphinx document
       run: |
         make html
     - name: Deploy
