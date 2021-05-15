@@ -19,7 +19,7 @@ jobs:
       run: |
         git config --global user.email "bot@example.com"
         git config --global user.name "bot"
-    - name Set up Ubuntu 20.04 environment
+    - name: Set up Ubuntu 20.04 environment
       run: |
         sudo apt update
         sudo apt -y upgrade
