@@ -1,8 +1,10 @@
 name: build sphinx document
 on: 
   push:
+    branches:
+      - docs
     paths:
-      - source/**
+      - 'source/**'
 jobs:
   main:
     name: build sphinx document
