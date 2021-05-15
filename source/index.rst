@@ -6,15 +6,18 @@
 Welcome to gh-pages with sphinx and GH#'s documentation!
 ========================================================
 
+* :ref:`genindex`
+
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   :numbered:
+   :glob:
    :caption: Contents:
 
-
+   OverView
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`search
