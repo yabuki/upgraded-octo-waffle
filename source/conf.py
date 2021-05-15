@@ -21,6 +21,10 @@ project = 'gh-pages with sphinx and GHA'
 copyright = '2021, YABUKI Yukiharu'
 author = 'YABUKI Yukiharu'
 
+# -- for old/(buster) sphinx -----------------
+
+master_doc = 'index'
+
 
 # -- General configuration ---------------------------------------------------
 
