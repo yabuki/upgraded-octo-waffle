@@ -11,4 +11,3 @@ GitHub Actions を使った sphinx + plantuml の構築について
 
    a->b
    b->c
-   c->d
