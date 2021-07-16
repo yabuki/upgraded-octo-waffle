@@ -2,6 +2,8 @@
 
 sphinx + GitHub Actions の sandbox です。
 
+<https://yabuki.github.io/upgraded-octo-waffle/>
+
 ## branch layout
 
 + main
