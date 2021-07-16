@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - 'docs'
+    paths:
+      - 'source/**'
+      - '.github/workflows/sphinx-build.yml'
+      # sourceの配下か、buildのactionを書き換えたらトリガーとする。
 jobs:
   main:
     name: build sphinx document
@@ -33,7 +37,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build
+          publish_dir: ./build/html/
+            # doctree は中間結果を書き出しているたけなので、
+            # 静的ページを参照するときには不要として
+            # ./build/html/の内容を最上位とする。
             #  publish_branch: gh-pages
             #  publish_dir: .
 
