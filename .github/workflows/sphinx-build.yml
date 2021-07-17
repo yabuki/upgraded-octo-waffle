@@ -43,4 +43,5 @@ jobs:
             # ./build/html/の内容を最上位とする。
             #  publish_branch: gh-pages
             #  publish_dir: .
+            #  see peaceiris/actions-gh-pages: GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly. https://github.com/peaceiris/actions-gh-pages
 
