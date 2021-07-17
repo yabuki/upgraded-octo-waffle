@@ -21,3 +21,10 @@ GitHub Actions を使った Sphinx + plantuml の構築について
 #. plantuml で図を書く
 #. push したら自動的に GitHub Actions で、gh-pages に反映する。
 
+このリポジトリでやりたいこと
+-----------------------------------------------------------------------------------
+
+実現できたら、上に移します。
+
+#. 複数のバージョンを管理する / spphinx-versioning, multiversion などをやってみる。
+#. textlint または redpen で文章校正
