@@ -26,5 +26,5 @@ GitHub Actions を使った Sphinx + plantuml の構築について
 
 実現できたら、上に移します。
 
-#. 複数のバージョンを管理する / spphinx-versioning, multiversion などをやってみる。
+#. 複数のバージョンを管理する / sphinx-versioning, multiversion などをやってみる。
 #. textlint または redpen で文章校正
